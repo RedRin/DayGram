@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f1ed"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/diary_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="17dp"
+        android:paddingBottom="17dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/show_month_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/month_shape"
+            android:text="AUGUST"
+            android:typeface="monospace"/>
+
+        <TextView
+            android:id="@+id/show_year_button"
+            android:layout_width="0dp"
+            android:layout_weight="1.20"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/year_shape"
+            android:text="2018"
+            android:typeface="monospace"
+            />
+
+        <ImageView
+            android:id="@+id/add_day_bottom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/add_button"
+            android:background="@drawable/add_shape"/>
+
+        <ImageView
+            android:id="@+id/detail_show_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/long_bar"
+            android:padding="5dp"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/month_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f1ed"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/year_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f1ed" />
+
+    </FrameLayout>
+
+
+
+
+    </LinearLayout>
