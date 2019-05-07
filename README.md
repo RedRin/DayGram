@@ -3,9 +3,9 @@
 
 # 预览界面  
 
-![](https://github.com/RedRin/DayGram/tree/master/imgs/main.png)
+![](https://github.com/RedRin/DayGram/blob/master/imgs/main.PNG)
 
 
 # 书写界面  
 
-![](https://github.com/RedRin/DayGram/tree/master/imgs/edit.png)
+![](https://github.com/RedRin/DayGram/blob/master/imgs/edit.PNG)
